@@ -34,6 +34,9 @@ This extension adds a convenient character shortcut bar to SillyTavern's chat in
 
 - SillyTavern version 1.10.0 or newer is recommended for best compatibility.
 
+# TODO
+1. Add avatar portrait customization
+
 ## Support and Contributions
 
 For support, questions, or suggestions, please open an issue on the [SillyTavern GitHub](https://github.com/SillyTavern/SillyTavern) or contact the extension author via GitHub at `https://github.com/ECrelier/char-shortcut`.

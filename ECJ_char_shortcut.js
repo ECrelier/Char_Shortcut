@@ -34,7 +34,6 @@ import { getContext } from '../../../extensions.js';
         const members = groupMembersContainer.querySelectorAll('.group_member');
         members.forEach(member => {
             const memberDiv = document.createElement('div');
-            console.log("ECJ Character Shortcut: ", memberDiv.classList.contains("is_fav"));
             const avatar = member.querySelector(".avatar").cloneNode(true);
             member.classList.contains("is_fav") ? avatar.classList.add("is_fav") : null;
             memberDiv.style.cursor = 'pointer';
