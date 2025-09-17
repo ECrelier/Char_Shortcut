@@ -14,7 +14,7 @@ import { getContext } from '../../../extensions.js';
         return;
     }
 
-    // 1️⃣ Create shortcut container
+    // Create shortcut container
     let shortcutContainer = document.querySelector('#ECJ_char_shortcut');
     if (!shortcutContainer) {
         shortcutContainer = document.createElement('div');
@@ -28,7 +28,7 @@ import { getContext } from '../../../extensions.js';
         inputForm.parentElement.insertBefore(shortcutContainer, inputForm);
     }
 
-    // 2️⃣ Function to copy all group_member DIVs
+    // Function to copy all group_member DIVs
     function refreshShortcut() {
         shortcutContainer.innerHTML = '';
         const members = groupMembersContainer.querySelectorAll('.group_member');
@@ -51,7 +51,7 @@ import { getContext } from '../../../extensions.js';
     // Initial copy
     refreshShortcut();
 
-    // 3️⃣ MutationObserver to watch for added/removed children
+    // MutationObserver to watch for added/removed children
     const observer = new MutationObserver((mutations) => {
         let shouldRefresh = false;
         for (const mutation of mutations) {

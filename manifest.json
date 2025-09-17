@@ -3,8 +3,6 @@
     "requires": [],
     "optional": [],
     "js": "ECJ_char_shortcut.js",
-    "css": "ECJ_char_shortcut.css",
-    "version": "1.0.1",
     "version": "0.1.0",
     "homePage": "https://github.com/ECrelier/Char_Shortcut"
 }
