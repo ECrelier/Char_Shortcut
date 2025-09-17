@@ -27,7 +27,7 @@ This extension adds a convenient character shortcut bar to SillyTavern's chat in
 ### Usage
 
 1. In a group chat, look for the new shortcut bar above the message input box.
-2. Click any character's avatar in the bar to instantly select and speak as that character.
+2. Click any character's avatar in the bar to instantly trigger a message from that character.
 3. The bar will update automatically as you add or remove group members, or change Groups.
 
 ## Prerequisites
