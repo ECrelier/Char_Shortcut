@@ -1,0 +1,10 @@
+{
+    "display_name": "Character Shortcut",
+    "requires": [],
+    "optional": [],
+    "js": "ECJ_char_shortcut.js",
+    "css": "ECJ_char_shortcut_style.css",
+    "author": "Crelier",
+    "version": "1.0.0",
+    "homePage": "https://x.com/E_Crelier"
+}
