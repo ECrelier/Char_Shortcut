@@ -1,22 +1,28 @@
 
 # SillyTavern Character Shortcut Extension
 
-This extension adds a convenient character shortcut bar to SillyTavern's chat interface just above the chat input, allowing you to quickly select and speak as any group member with a single click. It streamlines roleplay and multi-character conversations by making character switching fast and visual.
+*A lightweight SillyTavern extension that adds a character avatar shortcut bar for faster roleplay.*
+
+This extension adds a convenient character shortcut bar to SillyTavern's chat interface just above the chat input, allowing you to quickly trigger a message from any group member with a single click. It streamlines roleplay and multi-character conversations by making character actions fast and visual.
 
 ## Features
 
-- **Quick Character Selection:** Instantly speak as any group member by clicking their avatar in the shortcut bar above the chat input.
+- **Quick Character Selection:** Instantly trigger a message from any group member by clicking their avatar in the shortcut bar above the chat input.
 - **Favorites Highlighted:** Favorite characters are visually marked for easy access.
 - **Automatic Updates:** The shortcut bar updates in real-time as group members are added or removed.
-- **Seamless Integration:** Works directly with SillyTavern's group chat UI, requiring no extra configuration, keeping the defaul behavior.
+- **Seamless Integration:** Works directly with SillyTavern's group chat UI, requiring no extra configuration.
 
 ## Installation and Usage
 
-### Installation
+### Manual Installation
+1. Navigate to your SillyTavern folder.
+2. Place the `char-shortcut` folder into: `public/scripts/extensions/third-party/`.
+3. Refresh SillyTavern in your browser.
 
-1. Open SillyTavern and go to the Extensions menu.
-2. Use the inbuilt extension installer to add the `char-shortcut` extension, or manually place the files in `public/scripts/extensions/third-party/char-shortcut/`.
-3. Refresh SillyTavern to activate the extension.
+### Automatic Installation
+1. Open SillyTavern.
+2. Go to **Extensions → Install Extension**.
+3. Paste this URL: `https://github.com/ECrelier/char-shortcut`.
 
 ### Usage
 
@@ -30,7 +36,7 @@ This extension adds a convenient character shortcut bar to SillyTavern's chat in
 
 ## Support and Contributions
 
-For support, questions, or suggestions, please open an issue on the [SillyTavern GitHub](https://github.com/SillyTavern/SillyTavern) or contact the extension author via GitHub.
+For support, questions, or suggestions, please open an issue on the [SillyTavern GitHub](https://github.com/SillyTavern/SillyTavern) or contact the extension author via GitHub at `https://github.com/ECrelier/char-shortcut`.
 
 Contributions are welcome! Feel free to submit pull requests or suggest improvements.
 
