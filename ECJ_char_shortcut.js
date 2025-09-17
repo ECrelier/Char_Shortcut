@@ -1,5 +1,3 @@
-import { getContext } from '../../../extensions.js';
-
 (function () {
     const inputForm = document.querySelector('#send_form');
     const groupMembersContainer = document.querySelector('#rm_group_members');

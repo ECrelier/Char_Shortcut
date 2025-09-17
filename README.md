@@ -36,6 +36,7 @@ This extension adds a convenient character shortcut bar to SillyTavern's chat in
 
 # TODO
 1. Add avatar portrait customization
+2. Add ability to collapse the Panel to hide it.
 
 ## Support and Contributions
 
