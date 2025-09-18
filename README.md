@@ -1,7 +1,7 @@
 
 # SillyTavern Character Shortcut Extension
 
-*A lightweight SillyTavern extension that adds a character avatar shortcut bar for faster roleplay.*
+*A lightweight [SillyTavern GitHub](https://github.com/SillyTavern/SillyTavern) extension that adds a character avatar shortcut bar for faster roleplay.*
 
 This extension adds a convenient character shortcut bar to SillyTavern's chat interface just above the chat input, allowing you to quickly trigger a message from any group member with a single click. It streamlines roleplay and multi-character conversations by making character actions fast and visual.
 
