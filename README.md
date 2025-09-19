@@ -7,6 +7,9 @@ This extension adds a convenient character shortcut bar to SillyTavern's chat in
 
 ## Features
 
+<img width="707" height="657" alt="Screenshot 2025-09-19 202454" src="https://github.com/user-attachments/assets/3e21a377-4bde-4e11-b65d-de3e083a94eb" />
+
+
 - **Quick Character Selection:** Instantly trigger a message from any group member by clicking their avatar in the shortcut bar above the chat input.
 - **Favorites Highlighted:** Favorite characters are visually marked for easy access.
 - **Automatic Updates:** The shortcut bar updates in real-time as group members are added or removed.
