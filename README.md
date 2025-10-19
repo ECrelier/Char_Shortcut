@@ -49,4 +49,4 @@ Contributions are welcome! Feel free to submit pull requests or suggest improvem
 
 ## License
 
-MIT License. See `LICENSE` file for details.
+AGPL-3.0 License. See `LICENSE` file for details.
