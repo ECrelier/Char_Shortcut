@@ -32,14 +32,16 @@
         const members = groupMembersContainer.querySelectorAll('.group_member');
         members.forEach(member => {
             const memberDiv = document.createElement('div');
-            const avatar = member.querySelector(".avatar").cloneNode(true);
-            member.classList.contains("is_fav") ? avatar.classList.add("is_fav") : null;
+            const avatar = member.querySelector('.avatar').cloneNode(true);
+            if (member.classList.contains('is_fav')) {
+                avatar.classList.add('is_fav');
+            }
             memberDiv.style.cursor = 'pointer';
             memberDiv.appendChild(avatar);
 
 
             memberDiv.addEventListener('click', () => {
-            member.querySelector("[data-action='speak']").click();});
+            member.querySelector('[data-action="speak"]').click();});
 
             shortcutContainer.appendChild(memberDiv);
         });
